@@ -97,6 +97,7 @@ class Command:  # pylint: disable=too-many-instance-attributes
         confirmation = 0
 
         # Adjust height using MAV_CMD_CONDITION_CHANGE_ALT (113)
+        sent_alt = False
         if data.z is not None and abs(data.z - self._target.z) > 0.5:
             delta_z = self._target.z - data.z
             self._connection.mav.command_long_send(
@@ -113,9 +114,11 @@ class Command:  # pylint: disable=too-many-instance-attributes
                 self._target.z,  # param7: target altitude
             )
             out_strings.append(f"CHANGE ALTITUDE: {delta_z}")
+            sent_alt = True
 
         # Adjust direction (yaw) using MAV_CMD_CONDITION_YAW (115). Relative angle.
-        if data.yaw is not None and data.x is not None and data.y is not None:
+        # At most one COMMAND_LONG per update so mock drone receives exactly NUM_TRIALS.
+        if not sent_alt and data.yaw is not None and data.x is not None and data.y is not None:
             angle_to_target_rad = math.atan2(
                 self._target.y - data.y,
                 self._target.x - data.x,
