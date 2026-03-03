@@ -63,8 +63,6 @@ def command_worker(
         controller.check_pause()
         try:
             data = input_queue.queue.get()
-            if data is None:
-                break
             strings = command_instance.run(data)
             for s in strings:
                 output_queue.queue.put(s)

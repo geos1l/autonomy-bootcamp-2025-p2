@@ -214,9 +214,7 @@ def main() -> int:
             main_logger.info(state_str)
             if state_str == "Disconnected":
                 disconnected = True
-        except queue.Empty:
-            pass
-        try:
+
             cmd_str = command_to_main.queue.get(timeout=0)
             main_logger.info(cmd_str)
         except queue.Empty:

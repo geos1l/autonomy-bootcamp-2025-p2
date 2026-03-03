@@ -110,8 +110,6 @@ class Telemetry:
 
         while time.time() < deadline:
             remaining = deadline - time.time()
-            if remaining <= 0:
-                break
             msg = self._connection.recv_match(
                 type=["ATTITUDE", "LOCAL_POSITION_NED"],
                 blocking=True,
