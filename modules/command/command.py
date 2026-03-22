@@ -37,20 +37,18 @@ class Command:  # pylint: disable=too-many-instance-attributes
         cls,
         connection: mavutil.mavfile,
         target: Position,
-        args: tuple,  # Put your own arguments here
         local_logger: logger.Logger,
     ) -> "tuple[bool, Command | None]":
         """
         Falliable create (instantiation) method to create a Command object.
         """
-        return True, cls(cls.__private_key, connection, target, args, local_logger)
+        return True, cls(cls.__private_key, connection, target, local_logger)
 
     def __init__(
         self,
         key: object,
         connection: mavutil.mavfile,
         target: Position,
-        _args: tuple,  # Put your own arguments here (unused in __init__)
         local_logger: logger.Logger,
     ) -> None:
         assert key is Command.__private_key, "Use create() method"

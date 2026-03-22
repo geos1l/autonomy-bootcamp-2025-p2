@@ -1,6 +1,6 @@
-23:01:28: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
-23:01:29: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | main | 113] Connected!
-23:01:30: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:18: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\common\modules\logger\logger_main_setup.py | setup_main_logger | 62] main logger initialized
+21:23:18: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | main | 113] Connected!
+21:23:19: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -15,8 +15,8 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:30: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
-            time_since_boot: 501,
+21:23:19: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+            time_since_boot: 500,
             x: 0.5,
             y: 0.0,
             z: 0.0,
@@ -30,7 +30,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:30: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:19: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 1000,
             x: 1.0,
             y: 0.0,
@@ -45,7 +45,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:31: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:20: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 1500,
             x: 1.5,
             y: 0.0,
@@ -60,7 +60,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:31: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:20: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 2000,
             x: 2.0,
             y: 0.0,
@@ -75,7 +75,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:32: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:21: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 2500,
             x: 2.5,
             y: 0.0,
@@ -90,7 +90,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:32: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:21: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 3000,
             x: 3.0,
             y: 0.0,
@@ -105,7 +105,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:33: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:22: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 3500,
             x: 3.5,
             y: 0.0,
@@ -120,7 +120,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:33: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:22: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 4000,
             x: 4.0,
             y: 0.0,
@@ -135,7 +135,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:34: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:23: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 4500,
             x: 4.5,
             y: 0.0,
@@ -150,7 +150,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:37: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:26: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 0,
             x: 0.0,
             y: 0.0,
@@ -165,8 +165,8 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:38: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
-            time_since_boot: 502,
+21:23:27: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+            time_since_boot: 500,
             x: 0.3333333432674408,
             y: 0.0,
             z: 0.0,
@@ -180,7 +180,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:38: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:27: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 1000,
             x: 0.6666666865348816,
             y: 0.0,
@@ -195,8 +195,8 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:39: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
-            time_since_boot: 1501,
+21:23:28: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+            time_since_boot: 1500,
             x: 1.3333333730697632,
             y: 0.0,
             z: 0.0,
@@ -210,7 +210,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:39: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:28: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 2000,
             x: 1.6666666269302368,
             y: 0.0,
@@ -225,7 +225,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:40: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:29: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 2501,
             x: 2.3333332538604736,
             y: 0.0,
@@ -240,7 +240,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:40: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:29: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 3000,
             x: 2.6666667461395264,
             y: 0.0,
@@ -255,7 +255,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:41: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:30: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 3500,
             x: 3.3333332538604736,
             y: 0.0,
@@ -270,7 +270,7 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:41: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+21:23:30: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
             time_since_boot: 4000,
             x: 3.6666667461395264,
             y: 0.0,
@@ -285,8 +285,8 @@
             pitch_speed: 0.0,
             yaw_speed: 3.1415927410125732
         }
-23:01:42: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
-            time_since_boot: 4501,
+21:23:31: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\tests\integration\test_telemetry.py | read_queue | 70] {
+            time_since_boot: 4500,
             x: 4.333333492279053,
             y: 0.0,
             z: 0.0,

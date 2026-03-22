@@ -57,6 +57,7 @@ def heartbeat_sender_worker(
         controller.check_pause()
         try:
             sender.run()
+            local_logger.info("Heartbeat sent", True)
         except Exception as e:  # pylint: disable=broad-exception-caught
             local_logger.error(f"Heartbeat send error: {e}", True)
         time.sleep(1)

@@ -1,0 +1,5 @@
+21:23:19: [INFO] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry_worker.py | telemetry_worker | 46] Logger initialized
+21:23:24: [ERROR] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 146] Telemetry timeout: did not receive both messages in 1s
+21:23:25: [ERROR] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 146] Telemetry timeout: did not receive both messages in 1s
+21:23:26: [ERROR] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 146] Telemetry timeout: did not receive both messages in 1s
+21:23:32: [ERROR] [C:\Users\silve\Auto Bootcamp\autonomy-bootcamp-2025-p2\modules\telemetry\telemetry.py | run | 146] Telemetry timeout: did not receive both messages in 1s
